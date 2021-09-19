@@ -1,0 +1,3 @@
+[submodule "dependences/manopt"]
+	path = dependences/manopt
+	url = https://github.com/NicolasBoumal/manopt.git
