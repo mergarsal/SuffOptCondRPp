@@ -1,7 +1,7 @@
 function Rs = extractQuotientfromE(P1, P2, E)
     Rs = zeros(3, 6); 
     
-    [R, t, ~, ~] = recoverPoseFromEssentialInliers(E, P1, P2);
+    [R, t, ~, ~] = recoverPoseFromEssential(E, P1, P2);
     
     % compute householder
     R0=computeHouseholder(t, [0; 0; 1]);
