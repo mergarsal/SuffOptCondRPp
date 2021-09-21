@@ -1,5 +1,5 @@
 % From OPENGV
-function R = generateBoundedR2( bound )
+function R = generateBoundedR( bound )
   rpy = bound*2.0*(rand(3,1)-repmat(0.5,3,1));
 
   R1 = zeros(3,3);

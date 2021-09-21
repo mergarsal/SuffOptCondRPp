@@ -1,6 +1,6 @@
 function struct_output = computeMinSingularValueB4All(xcc, Ps, discard_column)
         
-        % display('Computing min SV with B4'); 
+
         
         % check other relaxations 
         x1=xcc(1);x2=xcc(2);x3=xcc(3);x4=xcc(4);x5=xcc(5);x6=xcc(6);
